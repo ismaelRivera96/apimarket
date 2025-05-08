@@ -1,11 +1,11 @@
 {
   "name": "apimarket",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API para el mercado, creada con Express y MySQL",
+  "main": "src/server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js",
+    "dev":  "nodemon src/server.js",
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
