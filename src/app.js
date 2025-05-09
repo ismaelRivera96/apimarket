@@ -10,8 +10,8 @@ app.use((req, res, next) => {
 res.status(404).json({ 
 message: "Favor realizar pruebas en los siguientes endpoints:", 
 endpoints: [ 
-"https://URL GENERADA Railway /usuarios", 
-"https:// URL GENERADA Railway /productos" 
+"https://https://apimarket-production-28fc.up.railway.app//usuarios", 
+"https://https://apimarket-production-28fc.up.railway.app//productos" 
 ] 
 }); 
 }); 
